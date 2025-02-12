@@ -1,0 +1,2 @@
+# dynamicQrGenerateAndDisplay
+dynamicQrGenerateAndDisplay using jsp
