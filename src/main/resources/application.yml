@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: DynamicQrGenerator
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+server:
+  port: 7878
