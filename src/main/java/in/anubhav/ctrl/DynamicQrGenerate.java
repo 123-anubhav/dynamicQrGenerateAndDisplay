@@ -38,6 +38,8 @@ public class DynamicQrGenerate {
     public String qrPage() {
         return "qr"; // Return JSP page
     }
+    
+    
 
     @PostMapping("/generate-qr")
     public String generateQR(@RequestParam("inputData") String inputData, Model model) throws Exception {

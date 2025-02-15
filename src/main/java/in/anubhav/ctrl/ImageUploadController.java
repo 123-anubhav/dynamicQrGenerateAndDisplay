@@ -26,7 +26,7 @@ import java.util.UUID;
 public class ImageUploadController {
 
     private static final String UPLOAD_DIR = "D:\\jitendra\\images\\"; // Adjust as needed
-    private static final String QR_CODE_DIR = "src/main/resources/static/qrcodes/";
+    private static final String QR_CODE_DIR = "target/classes/static/qrcodes/";
 
     @GetMapping("/")
     public String showUploadForm() {

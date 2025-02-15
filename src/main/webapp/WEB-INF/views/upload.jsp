@@ -18,6 +18,7 @@
 <c:if test="${not empty qrCodeUrl}">
     <h3>Generated QR Code:</h3>
     <img src="${qrCodeUrl}" alt="QR Code" />
+    <p>QR Code URL: <a href="${qrCodeUrl}" target="_blank">${qrCodeUrl}</a></p>
 </c:if>
 
 </body>
